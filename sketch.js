@@ -4,12 +4,12 @@ let noseX,noseY;
 let reyeX,reyeY;
 let leyeX,leyeY;
 let singlePose,skeleton;
-// let actor_img;
-let specs;
-// ,smoke;
-function preload() {
-    specs = loadImage('images/specs.png');  // ✅ move here
-}
+// // let actor_img;
+// let specs;
+// // ,smoke;
+// function preload() {
+//     specs = loadImage('images/specs.png');  // ✅ move here
+// }
 
 function setup() {
     createCanvas(800, 500);
@@ -54,7 +54,7 @@ function draw() {
             line(skeleton[j][0].position.x, skeleton[j][0].position.y, skeleton[j][1].position.x, skeleton[j][1].position.y)
         }
 
-        image(specs,singlePose.nose.x-70,singlePose.nose.y-75,150,100);
+        // image(specs,singlePose.nose.x-70,singlePose.nose.y-75,150,100);
         // image(smoke,singlePose.nose.x-35,singlePose.nose.y+10,40,40);
 
         
